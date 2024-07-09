@@ -5,7 +5,7 @@ export default function Home() {
 
   return(
       <div>
-        <Button icon={AlertCircle} onPress={()=>{console.log("Sexo gratis")}}>Olá mundo</Button>
+        <Button icon={AlertCircle} onPress={()=>{window.alert("Olá")}}>Olá mundo</Button>
       </div>
   )
 }
